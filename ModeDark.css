@@ -1,0 +1,38 @@
+.button74 {
+    background-color: #b778ff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    box-shadow: #ffffff 4px 4px 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button74:hover {
+    background-color: hsl(276, 100%, 73%);
+  }
+  
+  .button74:active {
+    box-shadow: #ffffff 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+  .button74 {
+    transition: 1s;
+    background: rgb(29, 29, 29);
+  }
